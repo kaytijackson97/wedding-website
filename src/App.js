@@ -4,14 +4,17 @@ import {
   Route,
 } from 'react-router-dom';
 
-import './App.css';
 import Nav from './Nav';
+import Home from './pages/Home.js';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Nav/>
+        <Switch>
+          <Route exact path='/' component={Home} />
+        </Switch>
       </Router>
     </div>
   );
