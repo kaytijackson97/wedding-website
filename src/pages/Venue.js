@@ -10,8 +10,6 @@ const Venue = () => {
     ${WEDDING_LOCATION.name} posed as the backdrop to Peter's proposal. It's rich British-American blended history felt like the perfect location to 
     celebrate the marriage of this transatlantic couple.`;
 
-    const invite = `Please join us at ${WEDDING_LOCATION.name}, just a 40 minute train ride south of London, UK.`;
-
     return (
         <>
             <div className="home-container venue-container">
