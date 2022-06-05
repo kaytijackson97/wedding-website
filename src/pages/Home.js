@@ -6,8 +6,8 @@ const HomePage = () => {
         <div className="home-container">
             <div className="inner-div date-div">
             <h1 className="details-color">
-                    {WEDDING_DATE}
-                </h1>
+                {WEDDING_DATE}
+            </h1>
             </div>
             <div className="inner-div vl"></div>
             <div className="inner-div location-div">
