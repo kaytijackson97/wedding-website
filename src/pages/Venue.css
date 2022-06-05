@@ -1,0 +1,19 @@
+.castleImage {
+    float: left;
+    height: 400px;
+}
+
+.venue-container {
+    padding: 5% 8%;
+}
+
+.travel-container {
+    background-color: #ffffff;
+    padding: 5% 8%;
+}
+
+.venue-text {
+    float: right;
+    padding-top: 5%;
+    width: 711px;
+}
