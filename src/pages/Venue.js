@@ -6,7 +6,7 @@ import './Pages.css';
 import '../App.css';
 
 const Venue = () => {
-    const venueDescription = ` Once home to Anne Boleyn, Queen of England, restored by American aristocrat William Waldorf Astor in the 1900s, 
+    const venueDescription = `Once home to Anne Boleyn, Queen of England, restored by American aristocrat William Waldorf Astor in the 1900s, 
     ${WEDDING_LOCATION.name} posed as the backdrop to Peter's proposal. It's rich British-American blended history felt like the perfect location to 
     celebrate the marriage of this transatlantic couple.`;
 
