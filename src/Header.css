@@ -1,0 +1,20 @@
+.main-container {
+    background-image: url("./images/kwp\ \(9\).jpg");
+    background-position: 70% 45%;
+    opacity: 0.5;
+    height: 350px;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+}
+.text {
+    color: white;
+    text-align: center;
+}
+.name {
+    padding-top: 4%;
+    font-size: 150px;
+}
+
+.countdown-counter {
+    font-size: 40px;
+}
