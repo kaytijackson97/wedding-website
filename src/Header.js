@@ -1,3 +1,5 @@
+import { NAMES } from './Constants';
+
 import './Header.css';
 
 const createCountdown = (weddingDateString) => {
@@ -17,7 +19,7 @@ const Header = () => {
 
     return (
         <div className="main-container">
-            <h1 className="text name">Peter & Kayti</h1>
+            <h1 className="text name">{NAMES}</h1>
             <h3 className="text countdown-counter">{countdownText}</h3>
         </div>
     );

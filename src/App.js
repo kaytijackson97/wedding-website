@@ -3,9 +3,11 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Header from './Header';
 
+import Footer from './Footer';
+import Header from './Header';
 import Nav from './Nav';
+
 import Home from './pages/Home.js';
 import Venue from './pages/Venue.js';
 
@@ -21,6 +23,7 @@ function App() {
           <Route exact path='/venue' component={Venue} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }
