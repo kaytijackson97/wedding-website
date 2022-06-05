@@ -7,8 +7,10 @@ import Header from './Header';
 
 import Nav from './Nav';
 import Home from './pages/Home.js';
+import Venue from './pages/Venue.js';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -16,6 +18,7 @@ function App() {
         <Header/>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/venue' component={Venue} />
         </Switch>
       </Router>
     </div>
