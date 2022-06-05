@@ -1,0 +1,11 @@
+.footer-container {
+    background-color: #006464;
+    height: 60px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.light-text-color {
+    color: #ffffff;
+    opacity: 0.9;
+}

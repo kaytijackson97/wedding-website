@@ -1,3 +1,5 @@
+export const NAMES = 'Peter & Kayti';
+
 export const WEDDING_DATE = 'January 15, 2023';
 
 export const WEDDING_LOCATION = {

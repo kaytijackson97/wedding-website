@@ -3,6 +3,7 @@ import castleImage from '../images/IMG_6077.jpg';
 
 import './Venue.css';
 import './Pages.css';
+import '../App.css';
 
 const Venue = () => {
     const venueDescription = ` Once home to Anne Boleyn, Queen of England, restored by American aristocrat William Waldorf Astor in the 1900s, 
