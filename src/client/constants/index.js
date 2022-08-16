@@ -7,5 +7,6 @@ export const WEDDING_LOCATION = {
     address: 'Hever Rd, Hever',
     city: 'Edenbridge',
     postalCode: 'TN8 7NG',
-    country: 'UK',
+    countryInitials: 'UK',
+    country: 'United Kingdom',
 };

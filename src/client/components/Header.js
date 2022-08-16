@@ -1,4 +1,4 @@
-import { NAMES } from './Constants';
+import { NAMES } from '../constants/index';
 
 import './Header.css';
 

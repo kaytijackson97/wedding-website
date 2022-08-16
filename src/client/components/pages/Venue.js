@@ -1,9 +1,8 @@
-import { WEDDING_LOCATION } from '../Constants';
+import { WEDDING_LOCATION } from '../../constants/index';
 import castleImage from '../images/IMG_6077.jpg';
 
 import './Venue.css';
 import './Pages.css';
-import '../App.css';
 
 const Venue = () => {
     const venueDescription = `Once home to Anne Boleyn, Queen of England, restored by American aristocrat William Waldorf Astor in the 1900s, 
@@ -25,7 +24,7 @@ const Venue = () => {
                     <h5 className="dark-text-color">{WEDDING_LOCATION.name}</h5>
                     <h5 className="dark-text-color">{WEDDING_LOCATION.address}</h5>
                     <h5 className="dark-text-color">{WEDDING_LOCATION.city}, {WEDDING_LOCATION.postalCode}</h5>
-                    <h5 className="dark-text-color">United Kingdom</h5>
+                    <h5 className="dark-text-color">{WEDDING_LOCATION.country}</h5>
                 </div>
             </div>
         </>

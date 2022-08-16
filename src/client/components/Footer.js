@@ -1,4 +1,4 @@
-import { NAMES, WEDDING_DATE } from './Constants';
+import { NAMES, WEDDING_DATE } from '../constants/index';
 
 import './Footer.css';
 
